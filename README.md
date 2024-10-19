@@ -22,10 +22,17 @@ MongoDB (local instance or MongoDB Atlas)
 Git
 
 Setup Instructions
+
 git clone https://github.com/Banti4446/Daily-Expenses-Sharing-Application.git
+
 cd Daily-Expenses-Sharing-Application
+
 npm install
+
 DB_URI=mongodb://127.0.0.1:27017/expenses-app
+
 PORT=5000
+
 net start MongoDB
+
 node app.js
